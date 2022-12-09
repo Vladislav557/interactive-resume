@@ -1,1 +1,12 @@
-.Footer {}
+.Footer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    background-color: var(--blue-200);
+    border-top: 2px solid var(--blue-300);
+
+    a {
+        padding: 20px 0;
+    }
+}

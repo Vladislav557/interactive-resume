@@ -1,9 +1,12 @@
 import React from 'react';
+
+
 import styles from './Footer.module.scss';
 
 const Footer = () => (
   <div className={styles.Footer}>
-    Footer Component
+    <a href='https://github.com/Vladislav557' target='_blank' rel='noreferrer'>GitHub</a>
+    <a href='https://github.com/Vladislav557' target='_blank' rel='noreferrer'>GitHub</a>
   </div>
 );
 
