@@ -7,8 +7,6 @@ import ErrorPage from '../../pages/ErrorPage';
 
 import Layout from '../layouts/Layout';
 
-import styles from './App.module.scss';
-
 function App() {
   return (
     <>

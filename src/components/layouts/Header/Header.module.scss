@@ -3,7 +3,7 @@
     justify-content: space-between;
 
     background-color: var(--blue-100);
-    border-bottom: 2px solid var(--blue-200);
+    border-bottom: 2px solid var(--gray-100);
 
     .logo {
         padding: 20px;
@@ -22,7 +22,7 @@
             color: var(--switched-color);
 
             &:hover {
-                color: rgb(37, 0, 169);
+                color: rgb(217, 94, 254);
             }
         }
     }
