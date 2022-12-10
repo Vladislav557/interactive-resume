@@ -4,14 +4,8 @@ import Box from '../../Box';
 
 import styles from './Sidebar.module.scss';
 
-const localDate = new Intl.DateTimeFormat('ru-RU', {
-  day: 'numeric',
-  month: 'short',
-  year: 'numeric',
-});
-
 const Sidebar = ({ avatar_url, login, name, public_repos, location, created_at, html_url }) => {
-  const formatedDate = localDate.format(new Date(created_at))
+  const formatedDate = new Date(created_at).toLocaleDateString();
   return (
     <div className={styles.Sidebar}>
       <Box>

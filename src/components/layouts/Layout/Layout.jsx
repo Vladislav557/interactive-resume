@@ -14,7 +14,7 @@ const Layout = () => {
   useEffect(() => {
     fetch('https://api.github.com/users/Vladislav557')
       .then((fetchedData) => fetchedData.json())
-      .then(({ public_repos, login, name, avatar_url, location, created_at, html_url }) => setInfoUser({ public_repos, login, name, avatar_url, location, created_at, html_url }));
+      .then(({ avatar_url, login, name, public_repos, location, created_at, html_url }) => setInfoUser({ avatar_url, login, name, public_repos, location, created_at, html_url }));
   }, []);
 
   return (
