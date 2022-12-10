@@ -1,5 +1,7 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
+
+import ThemeSwitch from '../../ThemeSwitch';
 
 import styles from './Header.module.scss';
 
@@ -9,6 +11,7 @@ const Header = () => (
     <nav>
       <NavLink to='/'>Main</NavLink>
       <NavLink to='/resume'>Resume</NavLink>
+      <ThemeSwitch />
     </nav>
   </header>
 );

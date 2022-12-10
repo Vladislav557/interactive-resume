@@ -1,0 +1,31 @@
+:global {
+    body[data-theme='dark'] {
+        --switched-bg: var(--gray-300);
+        --switched-color: var(--white);
+    }
+
+    body[data-theme='light'] {
+        --switched-bg: var(--gray-50);
+        --switched-color: var(--gray-300);
+    }
+}
+.ThemeSwitch {
+    width: 120px;
+    align-items: center;
+
+    padding: 20px;
+
+    cursor: pointer;
+
+    span {
+        color: var(--switcher-color);
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+    }
+    &:hover {
+        span {
+            color: var(--switcher-color-hover);
+        }
+    }
+}
