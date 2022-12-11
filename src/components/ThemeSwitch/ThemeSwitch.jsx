@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import styles from './ThemeSwitch.module.scss';
 
 const ThemeSwitch = () => {
-  const [isDark, setDark] = useState(false);
+  const [isDark, setDark] = useState(true);
 
   const themeText = isDark ? 'Light Theme' : 'Dark Theme';
 
