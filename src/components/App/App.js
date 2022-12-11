@@ -18,9 +18,9 @@ function App() {
         <Route path='/' element={<Layout />}>
           <Route index element={<Main />} />
           <Route path='resume' element={<Resume />}>
-            <Route path='skills' element={<Skills />} />
             <Route path='about' element={<About />} />
             <Route path='education' element={<Education />} />
+            <Route path='skills' element={<Skills />} />
             <Route path='experience' element={<Experience />} />
           </Route>
         </Route>

@@ -1,10 +1,16 @@
 .Resume {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 10px;
 
     a {
         padding: 10px 0;
         text-transform: uppercase;
         text-decoration: none;
+        color: var(--switched-color);
+
+        &:hover {
+            color: rgb(217, 94, 254);
+        }
     }
 }
