@@ -17,4 +17,13 @@
         background-color: var(--blue-100);
         cursor: pointer;
     }
+
+    a {
+        text-decoration: none;
+        color: var(--switched-color);
+
+        &:hover {
+            color: rgb(217, 94, 254);
+        }
+    }
 }
