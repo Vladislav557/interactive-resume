@@ -9,8 +9,8 @@ const Header = () => (
   <header className={styles.Header}>
     <div className={styles.logo}>Resume</div>
     <nav>
-      <NavLink to='/'>Main</NavLink>
-      <NavLink to='/resume'>Resume</NavLink>
+      <NavLink to='/'>Главная</NavLink>
+      <NavLink to='/resume'>Резюме</NavLink>
       <ThemeSwitch />
     </nav>
   </header>
