@@ -20,7 +20,7 @@ const Sidebar = ({ avatar_url, login, name, public_repos, location, created_at, 
       title: 'Контакты',
       paragraphs: [
         `Twitter: ${twitter_username}`,
-        `Email: trololo557@gmai.com`,
+        `Email: trololo557@gmail.com`,
         `Discord: Vonny#8912 `,
         `Telegram: LolyBomb557`,
       ]
