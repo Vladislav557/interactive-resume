@@ -4,7 +4,7 @@
     border: 1px solid var(--blue-200);
     border-radius: 10px;
     background-color: var(--blue-50);
-    box-shadow: 0 5px 5px var(--blue-200);
+    box-shadow: 0 5px 10px var(--blue-400);
     transition: all 0.3s;
 
     h4 {
@@ -13,7 +13,7 @@
 
     &:hover {
         transform: scale(1.01);
-        box-shadow: 0 5px 10px var(--blue-100);
+        box-shadow: 0 5px 10px var(--blue-200);
         background-color: var(--blue-100);
         cursor: pointer;
     }

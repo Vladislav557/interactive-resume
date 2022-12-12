@@ -3,6 +3,10 @@
     justify-content: space-around;
     margin-bottom: 10px;
 
+    @media (max-width: 767px) {
+        flex-direction: column;
+    }
+
     a {
         padding: 10px 0;
         text-transform: uppercase;
@@ -11,6 +15,14 @@
 
         &:hover {
             color: rgb(217, 94, 254);
+        }
+    }
+
+    @media (max-width: 767px) {
+        text-align: center;
+
+        a[class='active'] {
+            background-color: var(--blue-300);
         }
     }
 }

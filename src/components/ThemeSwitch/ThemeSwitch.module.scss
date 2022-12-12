@@ -10,18 +10,25 @@
     }
 }
 .ThemeSwitch {
-    width: 120px;
     align-items: center;
 
     padding: 20px;
 
     cursor: pointer;
 
+    @media (max-width: 767px) {
+        padding: 20px 10px;
+    }
+
     span {
         color: var(--switcher-color);
         font-size: 0.75rem;
         text-transform: uppercase;
         letter-spacing: 2.5px;
+
+        @media (max-width: 767px) {
+            font-size: 0.5rem;
+        }
     }
     &:hover {
         span {

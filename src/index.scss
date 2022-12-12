@@ -9,6 +9,7 @@
     --blue-100: rgba(0, 134, 252, 0.1);
     --blue-200: rgba(0, 134, 252, 0.2);
     --blue-300: rgba(0, 134, 252, 0.3);
+    --blue-400: rgba(0, 134, 252, 0.4);
 
     --gray-50: rgb(246, 248, 255);
     --gray-100: rgb(105, 124, 154);
@@ -27,6 +28,14 @@ body {
     background-color: var(--switched-bg);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    @media (max-width: 767px) {
+        font-size: 0.75rem;
+    }
+
+    @media (min-width: 2560px) {
+        font-size: 1.5rem;
+    }
 }
 
 code {

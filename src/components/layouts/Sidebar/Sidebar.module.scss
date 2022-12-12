@@ -1,9 +1,8 @@
 .Sidebar {
     flex-basis: 25%;
 
-    border-right: 1px solid var(--gray-100);
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
 
-    font-size: 0.75rem;
     color: var(--switched-color);
 
     background-color: rgba(0, 0, 0, 0.05);
@@ -13,7 +12,7 @@
     }
 
     p {
-        margin: 5px;
+        margin: 5px 0;
     }
 
     img {
@@ -35,13 +34,13 @@
         gap: 20px;
         align-items: center;
 
-        margin: 55px 0 20px 0;
+        margin: 20px 0;
         padding: 10px;
 
         border: 1px solid var(--blue-300);
         border-radius: 10px;
 
-        box-shadow: -5px 5px 5px var(--blue-200);
+        box-shadow: 0 5px 10px var(--blue-400);
 
         background-color: var(--blue-50);
 
@@ -59,21 +58,5 @@
                 }
             }
         }
-    }
-
-    .info,
-    .social {
-        display: flex;
-        flex-direction: column;
-
-        margin-bottom: 20px;
-        padding: 10px;
-
-        border: 1px solid var(--blue-300);
-        border-radius: 10px;
-
-        background-color: var(--blue-50);
-
-        box-shadow: -5px 5px 5px var(--blue-200);
     }
 }
